@@ -5,6 +5,7 @@ randNum = random.randint(1, 100)
 name = input("Enter name: ")
 print("Hello, " + name + "!")
 nameLower = name.lower()
+#My name is Leo. ;)
 if nameLower == "leo":
     input("Enter number: ")
     print("Correct Guess!")
