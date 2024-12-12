@@ -17,7 +17,7 @@ else:
             print(str(x) + "ST Guess: to high.")
         elif int(num) < randNum:
             print(str(x) + "ST Guess: to low.")
-        if int(num) == randNum:
+        elif int(num) == randNum:
             print("Correct! It took you " + str(x) + " tries to guess the number.")
             break
     print("The number was " + str(randNum) + ".")
